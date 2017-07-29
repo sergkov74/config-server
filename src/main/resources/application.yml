@@ -11,3 +11,6 @@ spring:
           username: eip_config_dev
           password: Qwerty098
           clone-on-start: true
+management:
+  security:
+    enabled: false
