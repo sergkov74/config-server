@@ -1,0 +1,13 @@
+server:
+  port: 8888
+  context-path: /config-server
+
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: http://192.168.70.190/config/develop.git
+          username: eip_config_dev
+          password: Qwerty098
+          clone-on-start: true
